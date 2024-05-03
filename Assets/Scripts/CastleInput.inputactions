@@ -1,0 +1,54 @@
+{
+    "name": "CastleInput",
+    "maps": [
+        {
+            "name": "InGameAction",
+            "id": "39876a63-80ed-4384-b2fa-d3bdaf901f4b",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "ba6ecf8b-d1ef-42dc-8f80-6133ef8b2523",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MousePosition",
+                    "type": "Value",
+                    "id": "4017f6fd-c85c-4b09-aecc-d76f74a025b1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "74196245-a6d2-4ff9-a39b-930ba4e8e68d",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bfac707b-5124-4d19-bc18-56b7b5df1f4b",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
