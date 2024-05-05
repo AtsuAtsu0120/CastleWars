@@ -13,9 +13,7 @@ namespace System
         [BurstCompile]
         public void OnCreate(ref SystemState state)
         {
-            var playerEntity = state.EntityManager.CreateSingleton<PlayerData>();
-            var playerData = new PlayerData(0.0f, new float3(0, 2, 41), new float3(0, 0, 0));
-            state.EntityManager.SetComponentData(playerEntity, playerData);
+            
         }
 
         [BurstCompile]
